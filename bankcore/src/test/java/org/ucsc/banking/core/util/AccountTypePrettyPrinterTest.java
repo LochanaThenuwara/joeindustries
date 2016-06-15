@@ -11,6 +11,8 @@ public class AccountTypePrettyPrinterTest extends TestCase {
 	public void testPrintAccountType() {
 		AccountTypePrettyPrinter.printAccountType(NormalSavings.getInstance());
 		AccountTypePrettyPrinter.printAccountType(SalarySaver.getInstance());
+		AccountTypePrettyPrinter.printAccountType(KidSavings.getInstance());
+		
 	}
 
 }
